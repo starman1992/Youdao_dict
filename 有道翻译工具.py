@@ -46,7 +46,7 @@ def Youdao(onlyone=1,content=None):
         print("有道翻译结果：%s" % (target['translateResult'][0][0]['tgt']))
         time.sleep(3)   #系统休息3秒钟
     
-
+Youdao()
 ##url='http://www.whatismyip.com'
 ##
 ###如果用requests库可考虑下面方法
